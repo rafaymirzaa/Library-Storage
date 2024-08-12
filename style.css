@@ -1,0 +1,84 @@
+body {
+    background: url('lib.jpg')
+}
+h1 {
+    background-color: rgb(159, 101, 54);
+    text-align: center; /* Centers text horizontally */
+    padding: 20px; /* Adds padding to increase width */
+    margin: 0; /* Removes default margin */
+    width: 100%; /* Sets width to 100% of the parent container */
+
+}
+
+#formContainer {
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+
+#libraryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+}
+
+.book-card {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 250px;
+    text-align: left;
+    
+}
+
+.book-card div {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#newBookBtn {
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#newBookBtn:hover {
+    background: #218838;
+}
+
+#bookForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#bookForm input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+ 
+}
